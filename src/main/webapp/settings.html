@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Settings</title>
+
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="css/style.css" rel="stylesheet">
+        <link crossorigin="anonymous" href="css/bootstrap.min.css"
+              integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+              rel="stylesheet">
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Web Image Crawler</a>
+                    <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                            data-bs-target="#navbarText" data-bs-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a aria-current="page" class="nav-link active" href="settings.html">Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <form id="settings">
+                <section class="border rounded-5 p-4 pb-4">
+                    <label class="form-label" for="maxURLRange">Max # of Additional URLs to Visit</label>
+                    <span id="range-value">0</span>
+                    <input class="form-range" id="maxURLRange" max="15" min="0" step="1"
+                           type="range" value="0">
+                </section>
+
+                <section class="border rounded-5 p-4 pb-4">
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Enable Multithreading</label>
+                        <input checked class="form-check-input" id="flexSwitchCheckChecked" role="switch"
+                               type="checkbox">
+                    </div>
+                </section>
+            </form>
+        </main>
+
+        <script crossorigin="anonymous"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>

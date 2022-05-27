@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Scrapper</title>
+
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="css/style.css" rel="stylesheet">
+        <link crossorigin="anonymous" href="css/bootstrap.min.css"
+              integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+              rel="stylesheet">
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Web Image Crawler</a>
+                    <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                            data-bs-target="#navbarText" data-bs-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="settings.html">Settings</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input aria-label="Scrape" class="form-control me-2" placeholder="Enter URL to Scrape"
+                                   type="search">
+                            <button class="btn btn-outline-success" type="submit">Scrape</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="scrape-info" style="margin-top: 20px">
+                <div id="scrape-info-images" style="text-align: center"></div>
+            </section>
+
+            <section class="container-fluid" style="padding: 25px 50px 50px 50px">
+                <div id="image-list"
+                     style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); display: grid"></div>
+            </section>
+        </main>
+
+        <script crossorigin="anonymous"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>

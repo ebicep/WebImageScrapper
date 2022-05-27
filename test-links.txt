@@ -1,0 +1,9 @@
+Please paste your list of test URLs below:
+
+https://en.wikipedia.org/wiki/Main_Page
+https://stackoverflow.com/
+https://www.youtube.com/
+https://www.qq.com/        (Asia site, Slow loading, many ads)
+https://www.google.com/search?q=dog+pictures&rlz=1C1CHBF_enUS796US796&sxsrf=ALiCzsbSPkcYLrfkW9oXS9rjJ1AwXkZeWA:1653634281070&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjai6Xfi__3AhXxZTABHY-eAe0Q_AUoAXoECAEQAw&biw=1536&bih=782&dpr=1.25
+https://unsplash.com/
+https://www.reddit.com/
